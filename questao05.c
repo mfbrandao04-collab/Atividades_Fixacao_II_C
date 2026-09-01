@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float nota;
+
+    printf("Digite a nota do aluno: ");
+    scanf("%f", &nota);
+
+    if (nota >= 7) {
+        printf("Bom desempenho\n");
+    } else if (nota >= 5) {
+        printf("Desempenho regular\n");
+    } else {
+        printf("Baixo desempenho\n");
+    }
+    return 0;
+}
