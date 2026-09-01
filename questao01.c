@@ -7,7 +7,7 @@ int main() {
     scanf("%f", &media);
 
     if (media >= 7.0) {
-        printf("Aluno aprovado!\n");
+        printf("Aluno aprovado! Parabens!\n");
     } else {
         printf("Aluno reprovado!\n");
     }
